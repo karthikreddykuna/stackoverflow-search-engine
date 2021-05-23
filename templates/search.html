@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+  <meta charset="utf-8">
+  <link rel="icon" href="http://obj-cache.cloud.ruanbekker.com/favicon.ico">
+  <title>Bookmarks Search</title>
+
+</head>
+<body>
+  <main>
+  <div class="container">
+    <p>
+    <center>
+    <font size="15">stack<b> Overflow</b></font><br><br>
+    </center>
+    <center>
+      <font size="5">Your search buddy!</font>
+    </center>
+    </p>
+
+    <form action="/search" method="post">
+      <div class="input-group">
+        <input type="text" class="form-control input-lg" name="input" placeholder="Search" autofocus>
+        <div style="position: relative;margin: 0 auto;" class="input-group-btn">
+          <button class="btn btn-primary btn-lg" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <br><br>
+      <footer class="footer">
+        <p>&copy; Jeevan,Pradeep,Suresh& Karthikreddy </p>
+      </footer>
+    </div>
+  </main>
+  </body>
+</html>
