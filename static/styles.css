@@ -1,0 +1,59 @@
+html,body{
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #FFFFFF;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  padding: 0 26px;
+  width: 100vw;
+  min-height: 100vh;
+  /*background-size: auto;
+  -moz-background-size: auto;
+  -webkit-background-size: auto;
+  -o-background-size: auto;
+  -ms-background-size: auto;*/
+  background: rgba(154,57,163,1);
+  background: -moz-linear-gradient(-45deg, rgba(154,57,163,1) 0%, rgba(65,103,168,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(154,57,163,1)), color-stop(100%, rgba(65,103,168,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(154,57,163,1) 0%, rgba(65,103,168,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(154,57,163,1) 0%, rgba(65,103,168,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(154,57,163,1) 0%, rgba(65,103,168,1) 100%);
+  background: linear-gradient(135deg, rgba(154,57,163,1) 0%, rgba(65,103,168,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a39a3', endColorstr='#4167a8', GradientType=1 );
+}
+.container {
+  position: relative;
+  margin: calc(75px + 2vh + 2vw) auto 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 840px;
+}
+.exp-outline {
+    position: absolute;
+    transition: opacity 150ms ease-in-out,height 150ms ease-in-out;
+    pointer-events: none;
+    opacity: 0;
+    width: calc(100% - 2px);
+    left: 0px;
+    transform: translateY(-11px);
+}
+a:visited {
+    color: #990000;
+}
+a:link {
+    cursor: pointer;
+}
+.r{
+position: relative;
+}
+.s{
+position: relative;
+}
